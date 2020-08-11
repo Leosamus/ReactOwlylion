@@ -54,13 +54,13 @@ class Navbar extends React.Component {
           OWLYLION - FREELANCE
         </div>
         <NavLinksContainer>
-          <NavLink>
+          <NavLink href="#presentation">
             Présentation
           </NavLink>
-          <NavLink>
+          <NavLink href="#pro">
             Expérience
           </NavLink>
-          <NavLink>
+          <NavLink href="#contactme">
             Me contacter
           </NavLink>
         </NavLinksContainer>
@@ -111,6 +111,8 @@ const NavLinksContainer = styled.div`
   flex-direction: row;
 `;
 
-const NavLink = styled.div`
+const NavLink = styled.a`
+  color: var(--color-light-grey);
   padding: 5px 15px;
+  cursor: pointer;
 `;

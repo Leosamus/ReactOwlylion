@@ -1,4 +1,4 @@
-.app-technologies-line {
+.app-social-networks-line {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -8,9 +8,10 @@
     padding: 0;
   }
   >*:not(:last-child) {
-    padding-right: 5px;
+    padding-right: 8px;
   }
   img {
     height: 36px;
+    cursor: pointer;
   }
 }

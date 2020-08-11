@@ -6,7 +6,7 @@ class ContactBlock extends React.Component {
   render() {
     return (
       <div className="app-contact-block">
-        <SiteSection title="Me contacter">
+        <SiteSection title="Me contacter" anchor="contactme">
           <h3>
             Une mission, un projet à concevoir, des questions techniques, etc... ?
           </h3>

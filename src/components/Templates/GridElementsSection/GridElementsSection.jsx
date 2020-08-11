@@ -6,7 +6,7 @@ import SiteSection from '../SiteSection/SiteSection';
 class GridElementsSection extends React.Component {
   render() {
     return (
-      <SiteSection title={this.props.title}>
+      <SiteSection title={this.props.title} anchor={this.props.anchor}>
         <Grid columns={this.props.columns}>
           { this.props.children }
         </Grid>

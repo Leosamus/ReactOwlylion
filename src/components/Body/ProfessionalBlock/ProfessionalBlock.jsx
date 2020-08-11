@@ -12,7 +12,7 @@ class ProfessionalBlock extends React.Component {
   render() {
     return (
       <div className="app-professional-block">
-        <HorizontalElementsSection title="Mes expériences professionnelles">
+        <HorizontalElementsSection title="Mes expériences professionnelles" anchor="pro">
           <HorizontalElement title="JVWEB" subtitle="Développeur R&D - Nov 2019 / Maintenant" picture={jvweb}>
             <p className="content">
               JVWEB est une agence de web marketing qui arrive à se différencier des autres 
