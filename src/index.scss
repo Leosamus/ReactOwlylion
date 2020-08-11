@@ -1,0 +1,25 @@
+@import './scss/variables.scss';
+@import './scss/fonts.scss';
+
+body {
+  margin: 0;
+
+  background: var(--color-light-grey);
+  color: var(--color-black);
+
+  font-family: 'Roboto', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}

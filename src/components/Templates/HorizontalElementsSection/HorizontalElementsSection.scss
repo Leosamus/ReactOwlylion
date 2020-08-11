@@ -1,0 +1,10 @@
+.app-horizontal-elements-section {
+    .elements {
+        max-width: 1100px;
+        margin: auto;
+
+        >*:not(:first-child) {
+            margin-top: 40px;
+        }
+    }
+}

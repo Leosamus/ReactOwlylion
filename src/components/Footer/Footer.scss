@@ -1,0 +1,13 @@
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 80px;
+
+    color: var(--color-light-grey);
+    background: var(--color-dark-grey);
+
+    .content {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

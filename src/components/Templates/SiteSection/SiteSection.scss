@@ -1,0 +1,13 @@
+.app-site-section {
+    width: 100%;
+    margin-bottom: 10px;
+
+    >.body {
+        padding: 40px 0px;
+        background: var(--color-light-grey);
+        >.container {
+            max-width: 1100px;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.to-top-button-wrapper {
+  position: absolute;
+  top: 100vh;
+  right: 0.25rem;
+  bottom: -5em;
+  width: 3em;
+  pointer-events: none;
+
+  .to-top-button {
+    position: fixed;
+    position: sticky;
+    top: calc(100vh - 5rem);
+    right: 20px;
+    pointer-events: all;
+
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+
+    background: var(--color-dark-red);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .arrow-svg {
+      height: 20px;
+      width: 20px;
+      transform: rotate(180deg);
+      fill: white;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.app-grid-element {
+    text-align: center;
+    >.titles {
+        padding-bottom: 25px;
+        
+        h2 {
+            padding-bottom: 0;
+        }
+        h3 {
+            padding-bottom: 0;
+            color: var(--color-content-grey);
+        }
+    }
+
+    >.body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .picture {
+            height: 250px;
+            padding-bottom: 25px;
+
+            img {
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+        .description  {
+            flex: 1;
+        }
+    }
+}

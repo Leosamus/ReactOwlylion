@@ -1,0 +1,32 @@
+.app-horizontal-element {
+    >.titles {
+        padding-bottom: 25px;
+        
+        h2 {
+            padding-bottom: 0;
+        }
+        h3 {
+            padding-bottom: 0;
+            color: var(--color-content-grey);
+        }
+    }
+
+    >.body {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+
+        .picture {
+            width: 20%;
+            padding-right: 40px;
+
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+        .description  {
+            flex: 1;
+        }
+    }
+}
