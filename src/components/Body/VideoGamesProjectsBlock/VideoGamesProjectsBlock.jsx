@@ -34,7 +34,7 @@ class VideoGamesProjectsBlock extends React.Component {
               Il a été développé sur Unity. Il s'agit d'un petit jeu de gestion où le but 
               est d'atteindre une population maximum en terraformant une planète. Avec du recul,
               je me rends compte que ce n'est pas particulièrement fun, ni bien designé ahah.
-              Jouable <a href="www.owlylion.fr/projects/StardustUML" target="_blank">ici</a> !
+              Jouable <a href="https://www.owlylion.fr/projects/StardustUML" target="_blank">ici</a> !
             </p>
             <TechnologiesLine title="Technologies utilisées" technologies={[Technologies.Unity, Technologies.Csharp]}/>
           </HorizontalElement>
