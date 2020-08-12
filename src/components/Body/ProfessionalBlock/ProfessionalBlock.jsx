@@ -18,6 +18,7 @@ class ProfessionalBlock extends React.Component {
               JVWEB est une agence de web marketing qui arrive à se différencier des autres 
               par la qualité de ses prestations et par ses interventions personnalisées grâce 
               à des scripts faits maison, permettant d'optimiser les comptes SEA et SMA de ses clients.
+              Visiter <a href="https://www.jvweb.com/">jvweb.com</a>.
             </p>
             <p className="content">
               Mon poste chez JVWEB m'a permis de développer mes compétences sur les technologies 
@@ -25,6 +26,7 @@ class ProfessionalBlock extends React.Component {
               plus grosse équipe que dans ma précédente entreprise. J'ai également découvert comment 
               analyser les besoins de mes collaborateurs et comment leur apporter des solutions. 
               Scripts personnalisés, outils divers, etc...
+              J'ai notamment travaillé sur l'outil <a href="https://seiso.io/">SEISO.io</a>.
             </p>
             <TechnologiesLine title="Technologies utilisées" 
               technologies={[Technologies.Angular, Technologies.Csharp, Technologies.Azure ]}/>
@@ -34,7 +36,7 @@ class ProfessionalBlock extends React.Component {
               Mon poste chez Zappiti fût une expérience très enrichissante. 
               Dû au petit effectif de l'équipe de développement, 
               j'ai dû faire preuve de polyvalence ce qui m'a permis de gagner 
-              en expérience sur diverses technologies.
+              en expérience sur diverses technologies. Visiter <a href="http://www.zappiti.com/index.html">Zappiti.com</a>.
             </p>
             <TechnologiesLine title="Technologies utilisées" 
               technologies={[Technologies.Angular, Technologies.Csharp, Technologies.Unity, Technologies.Azure]}/>

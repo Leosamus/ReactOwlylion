@@ -7,7 +7,8 @@ import { DownArrow } from '../../../resources/svg';
 class LandingBlock extends React.Component {
   render() {
     return (
-      <div className="app-landing-block" id="top" style={{ backgroundImage: `url(${background})` }}>
+      <div className="app-landing-block" style={{ backgroundImage: `url(${background})` }}>
+        <div id="top"/>
         <div className="body">
           <div className="text-container">
             <div>
@@ -24,7 +25,9 @@ class LandingBlock extends React.Component {
           </div>
         </div>
         <div className="down-arrow">
-          <DownArrow />
+          <a href="#presentation">
+            <DownArrow />
+          </a>
         </div>
       </div>
     )

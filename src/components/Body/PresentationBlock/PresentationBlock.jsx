@@ -5,6 +5,8 @@ import TechnologiesLine from '../../Misc/TechnologiesLine/TechnologiesLine';
 import { Technologies } from '../../../models/technologies';
 import SocialNetworksLine from '../../Misc/SocialNetworksLine/SocialNetworksLine';
 
+import cvpdf from 'files/cv_hylian_dev.pdf';
+
 class PresentationBlock extends React.Component {
   render() {
     return (
@@ -18,7 +20,7 @@ class PresentationBlock extends React.Component {
           <SocialNetworksLine />
           <p className="content" style={{paddingTop: '12px'}}>
             Autodidacte et très curieux, ma soif d'apprendre est sans limite. Ce site en
-            est l'exemple : il a pour bbut de me faire découvrir et monter en compétence sur
+            est l'exemple : il a pour but de me faire découvrir et monter en compétence sur
             React. J'aime découvrir de nouvelles technologies et de nouvelles manières pratiques.
             De ce fait, je lis tout ce qui me passe par la main et qui concerne un aspect technique
             (<a href="#references">voir mes références</a>).
@@ -30,6 +32,9 @@ class PresentationBlock extends React.Component {
           </p>
           <TechnologiesLine title="Mes technologies principales" technologies={[Technologies.Angular, Technologies.Csharp, Technologies.Azure, Technologies.Unity]}/>
           <TechnologiesLine title="Mes autres technologies" technologies={[Technologies.React]}/>
+          <p className="content">
+            Vous pouvez trouvez mon CV <a href={cvpdf} target="_blank" rel="noopener noreferrer">ici</a>
+          </p>
         </SiteSection>
       </div>
     )
